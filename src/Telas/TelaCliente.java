@@ -32,8 +32,7 @@ public class TelaCliente extends Utilidades {
 		setLocationRelativeTo( this );
 		setTitle( "cliente" );
 		setDefaultCloseOperation( TelaCliente.EXIT_ON_CLOSE);
-		
-			//Here adding labels to JFrame.
+
 			getContentPane().add( getJseparator( 30, 50, 220, 10 ));		
 			getContentPane().add( getJLabel( "Servidor remoto:", 30, 30, 100, 23 ) );
 			getContentPane().add( getJLabel( "IP Remoto: ", 30, 60, 90, 23 ) );
